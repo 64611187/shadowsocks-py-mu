@@ -12,4 +12,4 @@ COPY supervisor.conf /etc/supervisor/conf.d/
 COPY config.py  /manyusers/shadowsocks/
 WORKDIR /manyusers/shadowsocks/
 
-CMD ['supervisor','-n']
+CMD ['/usr/bin/supervisord']
