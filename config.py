@@ -1,3 +1,4 @@
+# !!! Please rename config_example.py as config.py BEFORE editing it !!!
 
 import logging
 # !!! Only edit this line when you update your configuration file !!!
@@ -25,10 +26,10 @@ MYSQL_USER_TABLE = 'user'
 MYSQL_TIMEOUT = 30
 
 # Shadowsocks MultiUser API Settings
-API_URL = 'http:///mu'
+API_URL = 'https://ss.2x0.cn/mu'
 # API Key (you can find this in the .env file if you are using SS-Panel V3)
-API_PASS = 'mupass'
-NODE_ID = '1'
+API_PASS = 'api_key_ss_2x0_cn121'
+NODE_ID = '2'
 
 # Time interval between 2 pulls from the database or API
 CHECKTIME = 30
